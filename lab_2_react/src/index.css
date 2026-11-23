@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* Клас dark на <html> вмикає варіанти dark:... (нічна тема) */
+@custom-variant dark (&:where(.dark, .dark *));
+
+html {
+  scroll-behavior: smooth;
+}
